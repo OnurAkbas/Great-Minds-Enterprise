@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+th, td {
+    text-align: left;
+    padding: 50px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #333333;
+    color: white;
+}
+
+
+.pagination {
+    margin-left: 50%;
+    max-width: 50%;;
+    
+}
+
+.pagination a {
+    color: #333333;
+    font-size: 20px;
+}
+
+.pagination a.active {
+    background-color: #333333;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;} 

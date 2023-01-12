@@ -1,0 +1,103 @@
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+
+
+.input-requirements {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: left;
+  list-style: disc;
+  list-style-position: inside;
+  max-width: 400px;
+  margin: 10px auto;
+  color: rgb(150,150,150);
+}
+
+
+.input-requirements li.invalid {
+	color: #e74c3c;
+}
+.input-requirements li.valid {
+	color: #2ecc71;
+}
+
+.input-requirements li.valid:after {
+	display: inline-block;
+	padding-left: 10px;
+	content: "\2713";
+}
+
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.emaill input {
+    width: 50%;
+    float: left;
+    display: inline;
+}
+
+.emailr input {
+    width: 50%;
+    float: right;
+    display: inline;
+    background-color: #ddd;
+}
+
+h3 {
+    color: red;
+}
+
+h3.success {
+    color: green;
+}
+
+.btn {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #2980B9;
+  color: #ffffff;
+}
+
+.
